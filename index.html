@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Paint</title>
+	 <script src="script.js"></script>
+	 </head>
+
+
+  <body style='margin: 0; padding: 0;'>
+	<canvas id="canvas" width="800" height="400" style='display: block; border: 2px solid #000;'></canvas>
+	<button type="button" name="button" id='black'></button>
+	<button type="button" name="button" id='red'></button>
+	<button type="button" name="button" id='green'></button>
+	<button type="button" name="button" id='white'></button>
+	<button type="button" name="button" id='blue'></button>
+	<button type="button" name="button" id='yellow'></button>
+	<button type="button" name="button" id='purple'></button>
+	<button type="button" name="button" id='aqua'></button>
+	<button type="button" name="button" id='orange'></button>
+	<button type="button" name="button" id='pink'></button>
+	<button type="button" name="button" id='gray'></button>	
+	<br/>
+	<span>Grosor del Pincel: </span>
+	<input type='range' id='widthChanger' value="10" min="1" max="100"/>
+	<br />
+	<input type="button" value="Reproducir & Borrar" id='repeat'/>
+	<a href="index.html"><input type="button" value="Limpiar Canvas" id='clear'/> </a>
+
+  </body>
+</html>
